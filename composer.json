@@ -1,0 +1,14 @@
+{
+    "name": "savks/laravel-route-bindings",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Savks\\LaravelRouteBindings\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0"
+    }
+}
