@@ -2,14 +2,15 @@
 
 namespace Savks\LaravelRouteBindings\Providers;
 
+use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Route;
 
 class LaravelRouteBindingsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        Route::macro('localModel', function (string $modelFQN) {
+        dde(1);
+        Router::macro('localModel', function (string $key, string $modelFQN) {
             dd(1);
         });
     }
