@@ -10,6 +10,6 @@
     "require": {
         "php": "^8.1",
         "laravel/framework": "^9.0",
-        "savks/php-contexts": "dev-next"
+        "savks/php-contexts": "dev-master"
     }
 }
